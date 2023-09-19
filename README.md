@@ -65,7 +65,7 @@ A `c-wizard` display a guided flow with multiple steps, only one is visible at a
 
 #### Custom Events
 
-##### change
+##### wizardstepchange
 
 The event fired when the wizard advances or goes back following the configured step flow. An external change by setting the attribute current-step does not emit this event.
  
