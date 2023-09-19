@@ -135,7 +135,7 @@ export default class Wizard extends LightningElement {
         var self = this;
 
         if (stepName) {
-            self.dispatchEvent(new CustomEvent('change', {
+            self.dispatchEvent(new CustomEvent('wizardstepchange', {
                 detail: {
                     oldStep: self._currentStep,
                     currentStep: stepName
